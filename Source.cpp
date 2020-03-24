@@ -10,14 +10,15 @@ int main()
 	int age = 21;
 	cout << "\nThe customer age using a variable is " << age << endl;
 
-	// make your first refj
+	// make your first ref
 	int& r_age = age;
 	cout << "\nThe customer age using a reference is " << r_age << endl;
-	age = 56;
-	cout << "\nThe customer age using a variable is " << age << endl;
-	int& r_age = age;
+	r_age = 25;
 	cout << "\nThe customer age using a reference is " << r_age << endl;
+	age = 16;
 	
+	cout << "\nThe customer age using a variable is " << age << endl; 
+	cout << "\nThe customer age using a variable is " << age << endl;
 
 	return 0;
 }
